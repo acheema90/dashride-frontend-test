@@ -1,0 +1,11 @@
+<div class="blue  white-text">
+<span class="">Enter Your Date Of Birth:</span>
+<input class="hoverable " type="date" value="" ng-model="dob" ng-change="calcAge()"/>
+  <div ng-if="age">
+    <br/>
+    <span class="">Looks like you are {{age}} years old!</span>
+    <br/>
+    <span class="" ng-if="fact">Fun Fact: {{fact}}</span>
+  </div>
+
+</div>
